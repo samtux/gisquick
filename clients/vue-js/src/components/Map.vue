@@ -155,7 +155,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 .map-view {
   position: absolute;
@@ -196,12 +196,12 @@ export default {
     left: auto;
     right: 0.5em;
   }
-}
 
-.scale-line {
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  .scale-line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
 }
 
 .main-panel {
